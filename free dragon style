@@ -13,7 +13,7 @@ local tigerDropsSession = 0
 local hactsSession = 0
  
  
-local function sendNotification(text, color)
+local function sendNotification(Style Loaded!)
 	if not color then color = Color3.new(1, 1, 1) end
 	pgui.Notify.Awards.ChildAdded:Once(function(c)
 		if c.Text == text then
